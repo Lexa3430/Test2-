@@ -2,7 +2,7 @@
 pragma solidity ^0.8.28;
 pragma abicoder v2;
 
-import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
+import import "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol";
 import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
 import "@uniswap/v3-core/contracts/libraries/TickMath.sol";
 import "@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol";
